@@ -9,19 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@splidejs/react-splide": "github:splidejs/react-splide",
+    "@splidejs/splide": "^4.1.4",
+    "motion": "^12.12.2",
+    "next": "15.3.2",
+    "postcss": "^8.5.3",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.3.2"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@iconify-icon/solid": "^3.0.0",
+    "@iconify/react": "^4.1.1",
+    "@tailwindcss/postcss": "^4.1.7",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.3.2",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4.1.7",
+    "typescript": "^5"
   }
 }
