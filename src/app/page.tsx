@@ -96,8 +96,7 @@ export default function Home() {
               <Link target="_blank" href={profileData?.contact?.github}>
                 <Icon
                   icon="line-md:github-loop"
-                  width="40px"
-                  height="40px"
+                 className=" size-7 sm:size-10"
                   style={{ color: "#9410ea" }}
                 />
               </Link>
@@ -107,24 +106,21 @@ export default function Home() {
               >
                 <Icon
                   icon="line-md:email"
-                  width="40px"
-                  height="40px"
+                 className=" size-7 sm:size-10"
                   style={{ color: "#9410ea" }}
                 />
               </Link>
               <Link target="_blank" href={profileData?.contact?.linkedIn}>
                 <Icon
                   icon="line-md:linkedin"
-                  width="40px"
-                  height="40px"
+                 className=" size-7 sm:size-10"
                   style={{ color: "#9410ea" }}
                 />
               </Link>
               <Link target="_blank" href={profileData?.contact?.twitter}>
                 <Icon
                   icon="line-md:twitter-x"
-                  width="40px"
-                  height="40px"
+                 className=" size-7 sm:size-10"
                   style={{ color: "#9410ea" }}
                 />
               </Link>

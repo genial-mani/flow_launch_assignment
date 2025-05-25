@@ -3,7 +3,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 
 export const metadata: Metadata = {
-  title: "Create Next App",
+  title: "Manikanta Ginige",
   description: "Personal dashboard",
 };
 
