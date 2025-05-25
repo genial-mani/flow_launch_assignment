@@ -285,9 +285,21 @@ export default function Home() {
       </div>
       <div id="certi" className="flex flex-col sm:my-20">
         <h2 className="text-center text-3xl sm:text-5xl mt-10 md:mt-20 md:mb-5">Certifications</h2>
-        <div className="flex flex-col gap-4 mb-20">
+        <div className="flex flex-col gap-4 mb-0">
           <Certificates/>
         </div>
+      </div>
+      <div className="w-full max-w-full min-h-fit flex items-center justify-center py-3 mb-16 sm:mb-20 text-sm sm:text-lg">
+          <div className="flex items-center gap-1">
+            <span>made with</span>
+            <motion.div
+            initial={{ scale: 0.8 }}
+            animate={{ scale: 1.2 }}
+            transition={{ duration: 0.5, repeat: Infinity, repeatType: "reverse" }}
+            ><Icon icon="fluent-emoji:purple-heart" width="24px" height="24px" /></motion.div>
+            <span> by </span>
+            <Link href={profileData?.contact?.github} target="_blank" className="text-purple-600 font-bold">{profileData?.name}</Link>
+          </div>
       </div>
     </div>
   );
