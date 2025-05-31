@@ -84,6 +84,7 @@ export const profileData = {
       { name: "Express.js", icon: "skill-icons:expressjs-dark" },
       { name: "Socket.io", icon: "logos:socket-io" },
       { name: "Hono", icon: "logos:hono" },
+      { name: "Prisma", icon: "skill-icons:prisma" },
     ],
     databases: [
       { name: "MongoDB", icon: "skill-icons:mongodb" },
