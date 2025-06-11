@@ -77,7 +77,8 @@ export const profileData = {
       { name: "React.js", icon: "skill-icons:react-dark" },
       { name: "Next.js", icon: "devicon:nextjs" },
       { name: "Tailwind CSS", icon: "skill-icons:tailwindcss-dark" },
-      { name: "Figma", icon: "skill-icons:figma-dark" }
+      { name: "Figma", icon: "skill-icons:figma-dark" },
+      {name: "Zustand", icon: "devicon:zustand"}
     ],
     backend: [
       { name: "Node.js", icon: "skill-icons:nodejs-dark" },
@@ -107,7 +108,7 @@ export const profileData = {
       { name: "Cloudflare", icon: "skill-icons:cloudflare-dark" }
     ],
     other_tools: [
-      { name: "Git & GitHub", icon: "skill-icons:github-dark" }
+      { name: "Git & GitHub", icon: "skill-icons:github-dark" },
     ]
   },
   projects: [
@@ -117,11 +118,13 @@ export const profileData = {
         desc: 'A task manager platform with a dashboard where users can manage their tasks efficiently, get the analysis of all the completed and pending tasks and interact within the platform in a seamless way. (Used advanced routing technique in Next.js)',
         techStack: [
             { name: "Next.js", icon: "devicon:nextjs" }, { name: "React", icon: "skill-icons:react-dark" },
-            { name: "TypeScript", icon:"skill-icons:typescript" },{ name: "TailwindCSS", icon: "skill-icons:tailwindcss-dark" },
+            { name: "TypeScript", icon:"skill-icons:typescript" },{ name: "Zustand", icon: "devicon:zustand" },
+            { name: "TailwindCSS", icon: "skill-icons:tailwindcss-dark" },
             { name: "Framer", icon: "devicon:framermotion" }, { name: "Node.js", icon: "skill-icons:nodejs-dark" },
             { name: "Express.js", icon: "skill-icons:expressjs-dark" }, { name: "MongoDB", icon: "skill-icons:mongodb" },
             { name: "Prisma ORM", icon: "skill-icons:prisma" }, { name: "Cloudinary", icon: "logos:cloudinary-icon" },
-            { name: "Vercel", icon: "logos:vercel-icon" }
+            { name: "Vercel", icon: "logos:vercel-icon" },
+            
         ],
         liveLink: 'http://doit-ochre.vercel.app/',
         githubLink: 'https://github.com/genial-mani/task-manager',
