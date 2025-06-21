@@ -6,6 +6,10 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 const slides = [
   {
     image:
+      "https://res.cloudinary.com/diumsbsrb/image/upload/v1750519514/Introduction_to_Machine_Learning_with_SciKit_Learn_lgcnpu.png",
+  },
+  {
+    image:
       "https://res.cloudinary.com/diumsbsrb/image/upload/v1748154382/UC-450ccd31-4674-4bec-bfc1-1ab4909891c7_mei3pt.jpg",
   },
   {
