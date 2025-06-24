@@ -83,6 +83,7 @@ export const profileData = {
     backend: [
       { name: "Node.js", icon: "skill-icons:nodejs-dark" },
       { name: "Express.js", icon: "skill-icons:expressjs-dark" },
+      { name: "Flask", icon: "skill-icons:flask-dark" },
       { name: "Socket.io", icon: "logos:socket-io" },
       { name: "Hono", icon: "logos:hono" },
       { name: "Prisma ORM", icon: "skill-icons:prisma" },
