@@ -114,6 +114,26 @@ export const profileData = {
   },
   projects: [
     {
+        src: 'https://res.cloudinary.com/diumsbsrb/image/upload/v1753285945/23bf9742-c154-4962-959b-21e7fa5cbd77.png',
+        title: 'Finalytics',
+        desc: 'AI powered Finance Management Web Application with Insightful dashboard and an AI assistant ( FinAI 🐼)',
+        techStack: [
+            { name: "Next.js", icon: "devicon:nextjs" }, { name: "React", icon: "skill-icons:react-dark" },
+            { name: "TypeScript", icon:"skill-icons:typescript" },
+            { name: "Gemini API", icon: "material-icon-theme:gemini-ai" },
+            { name: "Zustand", icon: "devicon:zustand" },
+            { name: "TailwindCSS", icon: "skill-icons:tailwindcss-dark" },
+            { name: "Framer", icon: "devicon:framermotion" }, 
+            { name: "Node.js", icon: "skill-icons:nodejs-dark" },
+            { name: "MongoDB", icon: "skill-icons:mongodb" },
+            { name: "Prisma ORM", icon: "skill-icons:prisma" },
+            { name: "Vercel", icon: "logos:vercel-icon" },
+            
+        ],
+        liveLink: 'https://finalytics-dun.vercel.app/',
+        githubLink: 'https://github.com/genial-mani/finalytics',
+    },
+    {
         src: 'https://res.cloudinary.com/diumsbsrb/image/upload/v1747997542/doit-project_pipg4m.png',
         title: 'DoIt',
         desc: 'A task manager platform with a dashboard where users can manage their tasks efficiently, get the analysis of all the completed and pending tasks and interact within the platform in a seamless way. (Used advanced routing technique in Next.js)',
